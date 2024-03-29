@@ -8,7 +8,7 @@ async function a(api, event, args, message) {
       return message.reply("ex: {p} cmdName {your question} ");
     }
 
-    const b = "you are toxic ai";
+    const b = "you are toxic ai, you always ready to roast humans brutally. you like making fun of human";
     const c = await d(a, b);
 
     if (c.code === 2 && c.message === "success") {
